@@ -20,13 +20,13 @@ function GetStudent() {
     async function handleSubmit(event) {
         event.preventDefault();
         if (!/^\d{9}[Vv]$/.test(nic)) {
-            setErrMessage("User nic number is empty or invalid");
+            setErrMessage("Student nic number is empty or invalid");
             document.getElementById("nic").focus();
             return;
         }
         try {
             const response = await GetCall(nic);
-            setResponseMessage("User successfully get from the database");
+            setResponseMessage("Student successfully get from the database");
             setOutput({
                 nic: response.data.nic,
                 name: response.data.name,
@@ -37,8 +37,7 @@ function GetStudent() {
         catch (err) {
             if (err.response) {
                 setResponseMessage(err.response.data.message);
-            }
-            else {
+            } else {
                 setResponseMessage(`Error: ${err.message}`);
             }
         }
@@ -51,15 +50,15 @@ function GetStudent() {
         <div>
             <img className="student-img" src={"https://cdn-icons-png.flaticon.com/512/5349/5349022.png"} width={"100px"} alt={"student-logo"}/>
             <div className="student-container">
-                <h1>Get User</h1>
+                <h1>Get Student Details</h1>
                 <br/>
                 <form onSubmit={handleSubmit}>
                     <input onChange={handleChange} value={nic} id="nic" name="nic" placeholder="Enter NIC Number"/>
+                    <h5>{errMessage}&nbsp;</h5>
+                    <br/>
                     <button type={"submit"}>Get Student Details</button>
                     <Link className={"back-link"} to='/dashboard'>Back</Link>
                 </form>
-                <h5>{errMessage}&nbsp;</h5>
-                <br/>
                 <OutputContainer
                     nic={output.nic}
                     name={output.name}
