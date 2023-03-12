@@ -22,6 +22,8 @@ function SubmitStudent() {
     }
 
     function handleCheckOut() {
+        setErrMessage("");
+        setResponseMessage("");
         if (!/^\d{9}[Vv]$/.test(student.nic)) {
             setErrMessage("Student nic number is empty or invalid");
             document.getElementById("nic").focus();
@@ -45,6 +47,8 @@ function SubmitStudent() {
 
     async function handleSubmit(event) {
         event.preventDefault();
+        setErrMessage("");
+        setResponseMessage("");
         if (!output.nic || !output.name || !output.address || !output.contact) {
             setErrMessage("Inputs didn't checked out");
             return;
