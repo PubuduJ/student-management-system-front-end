@@ -14,22 +14,22 @@ See the back end of the project from [here.](https://github.com/PubuduJ/student-
 #### Images of the user interfaces
 
 1. Admin Login Page<br>
-   <img src="assets/login-page.png" alt="login-page" width="500px"/>
+   <img src="assets/login-page.png" alt="login-page" width="700px"/>
 
 2. System Dashboard<br>
-   <img src="assets/dashboard.png" alt="dashboard" width="500px"/>
+   <img src="assets/dashboard.png" alt="dashboard" width="700px"/>
 
 3. Submit Student Page<br>
-   <img src="assets/submit-student-page.png" alt="submit-page" width="500px"/>
+   <img src="assets/submit-student-page.png" alt="submit-page" width="700px"/>
 
 4. Get Student Details Page<br>
-   <img src="assets/get-student-page.png" alt="get-student-page" width="500px"/>
+   <img src="assets/get-student-page.png" alt="get-student-page" width="700px"/>
 
 5. Update Student Details Page<br>
-   <img src="assets/update-student-page.png" alt="update-student-page" width="500px"/>
+   <img src="assets/update-student-page.png" alt="update-student-page" width="700px"/>
 
 6. Delete Student Page<br>
-   <img src="assets/delete-student-page.png" alt="delete-student-page" width="500px"/>
+   <img src="assets/delete-student-page.png" alt="delete-student-page" width="700px"/>
 
 ## Used Technologies
 
