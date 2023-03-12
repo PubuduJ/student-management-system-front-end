@@ -14,6 +14,14 @@ body {
     height: 100%;
 }
 
+.centered-element {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 .login-img {
     display: block;
     margin-left: auto;

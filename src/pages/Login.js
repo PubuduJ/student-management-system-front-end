@@ -31,7 +31,7 @@ function Login() {
     }
 
     return (
-        <div>
+        <div className={"centered-element"}>
             <img className={"login-img"} src={"./images/login-logo.png"} width={"120px"} alt={"login-logo"}/>
             <div className={"login-container"}>
                 <h1>Admin Login</h1>

@@ -70,7 +70,7 @@ function SubmitStudent() {
     }
 
     return (
-        <div>
+        <div className={"centered-element"}>
             <img className="student-img" src={"https://cdn-icons-png.flaticon.com/512/5349/5349022.png"} width={"120px"} alt={"user-logo"}/>
             <div className="student-container">
                 <h1>Submit Student</h1>

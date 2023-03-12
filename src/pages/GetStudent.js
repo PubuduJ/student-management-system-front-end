@@ -49,7 +49,7 @@ function GetStudent() {
     }
 
     return (
-        <div>
+        <div className={"centered-element"}>
             <img className="student-img" src={"https://cdn-icons-png.flaticon.com/512/5349/5349022.png"} width={"100px"} alt={"student-logo"}/>
             <div className="student-container">
                 <h1>Get Student Details</h1>
