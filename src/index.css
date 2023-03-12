@@ -73,3 +73,95 @@ body {
     cursor: pointer;
     background-color: black;
 }
+
+.student-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.student-container {
+    margin: -50px auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.student-container h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Comfortaa Light", sans-serif;
+}
+
+.student-container input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+
+.student-container button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+
+.student-container div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(252, 252, 252, 0.2);
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    border-radius: 3px;
+}
+
+.student-container button:hover, .student-container button:focus {
+    background-color: black;
+    cursor: pointer;
+}
+
+.back-link {
+    appearance: none;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+
+.back-link:hover, .back-link:focus {
+    cursor: pointer;
+    background-color: black;
+}
