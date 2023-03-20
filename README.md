@@ -33,12 +33,10 @@ See the back end of the project from [here.](https://github.com/PubuduJ/student-
 
 ## Used Technologies
 
-- HTML5
-- CSS3
-- JavaScript
 - React JS
 - React Router 6
 - Axios
+- CSS3
 
 #### Used Integrated Development Environment
 - IntelliJ IDEA
