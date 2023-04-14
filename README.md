@@ -5,7 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project was created with the **React JS library** in order to better understand and utilize the React JS library.
 This project includes the basic CRUD activities of a student management system.
 
-See the back end of the project from [here.](https://github.com/PubuduJ/student-management-system-back-end)
+See the back end of the project from [here.](https://github.com/PubuduJ/student-management-system-back-end)<br>
+See the **React with TypeScript** front end of the project from [here.](https://github.com/PubuduJ/student-management-system-front-end-ts)
 
 #### Highlighted features of the application,
 - Students are registered to the system by their NIC number.
